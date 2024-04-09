@@ -13,9 +13,13 @@ HOMULA-RIR is a dataset of room impulse responses (RIRs) acquired using both hig
 <!-- <img src="https://github.com/polimi-ispl/homula-rir/assets/17434626/79b44352-bf62-4b37-8c29-971ce1a13adc" alt="drawing" width="490"/> /-->
 <!-- <img src="https://github.com/polimi-ispl/homula-rir/assets/17434626/07640a94-bdf6-4fc2-bd51-4b1f3c18931e" alt="drawing" width="490"/> /-->
 
-
 <br>RIRs have been recorded at a sample rate of *fs = 48 kHz* and truncated to a duration of *1 s*. They are provided as multichannel `wav` files, saved at *32 bit* per sample.
 Together with RIRs we also release acoustically calibrated positions of each microphone capsule.
+
+## Sample code
+
+The repository contains two sample files: `homula-rir.py` and `homula-rir.m`, which consist of scripts (in Python and MATLAB respectively) for reading and visualizing both RIRs and microphone or sources positions.
+
 
 ## Naming convention
 
